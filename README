@@ -4,3 +4,19 @@ Welcome to the Free LSL Script Repo!
 |How to DOWNLOAD:|
 \================/
 Visit https://github.com/directshout/TheLSLRepo/archives/master and select a download type.
+
+/==============\
+|How to COMMIT:|
+\==============/
+Stage 1 - Adding your file to the folder.
+1. Make a folder for your script. (~/TheLSLRepo/YOUR_DIRECTORY_HERE)
+2. Copy your script in it. (~/TheLSLRepo/YOUR_DIRECTORY_HERE/YOUR_FILE_HERE.lsl)
+
+Stage 2 - Adding your file to the staging area
+1. Open the Git Bash and type 'cd ~/TheLSLRepo' (w/o the '')
+2. Type 'git add YOUR_DIRECTORY_HERE/YOUR_FILE_HERE.lsl' for each file you are adding
+3. Type 'git status' and you should get something about a file has been found.
+4. Type 'git commit -m 'YOUR COMMENT HERE'' (Make sure you don't have the first and last '' but you do have the ones that enclose the comment).
+5. Type 'git status' and you should get something saying nothing to commit.
+6. Type 'git push -u origin master' and enter in your ssh key passphrase.
+7. Check the github page to see if it worked!
